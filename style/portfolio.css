@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+}
+.header{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position:bottom right , left;
+}
+.btn-primary{
+    width: 150px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+/* header and navigation styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 31px 100px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+
+/* banner style */
+.banner{
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
+}
+.photo{
+    height: 35%;
+    width: 35%;
+}
+.banner-sub-title{S
+    font-weight: 600px;
+    font-size: 45px;
+    color: #474747;
+    line-height: 61px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    color: #181818;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+
+}
+/* main Section style */
+main{
+    width: 1140px;
+    margin: 0 auto; 
+}
+
+/* About Section style */
+
+.about{
+    margin-top: 130px;
+    text-align: center;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.section-title{
+    margin-bottom: 30px;
+    color: #181818;
+    font-size: 25px;
+}
+.section-description{
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+}
+
+/* About info style */
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about.info-title{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #757575;
+}
+.info-derscription{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
