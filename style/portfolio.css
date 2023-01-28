@@ -69,7 +69,6 @@ nav li{
     line-height: 30px;
     color: #757575;
     margin-bottom: 30px;
-
 }
 /* main Section style */
 main{
@@ -132,16 +131,56 @@ gap: 20px;
     padding: 30px;
 }
 .skill-title{
-font-size: 20px;
-font-weight: 700;
-color: #181818;
-margin-top: 10px;
-margin-bottom: 10px;
-
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .skill-description{
     font-weight: 400;
     font-size: 16px;
+    color: #757575;    
+}
+/*Summary of My Resume style*/
+.resume{
+    margin-top: 130px;
+}
+.resume-title-summary{
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+
+}
+.resume-contain{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+.resume .sub-title{
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 20px;
     color: #757575;
-    
+}
+.resume .description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.resume-btn{
+    margin-top: 10px;
+    text-align: center;
 }
