@@ -23,7 +23,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 31px 100px;
+    padding: 31px 100px;
 }
 .nav-title{
     font-weight: 800;
