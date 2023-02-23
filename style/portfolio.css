@@ -1,4 +1,6 @@
 *{
+   height: auto;
+   width: auto;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     justify-content: center;
@@ -51,7 +53,7 @@ nav li{
     height: 35%;
     width: 35%;
 }
-.banner-sub-title{S
+.banner-sub-title{
     font-weight: 600px;
     font-size: 45px;
     color: #474747;
@@ -198,9 +200,51 @@ gap: 20px;
 .contact .section-title{
     text-align: left;
 }
-.contact input,textarea{
+.contact input[type="text"],input[type="email"],textarea{
     margin-bottom: 24px;
     border: 0;
     width: 100%;
     padding: 18px 30px;
+}
+/*Responsive styles*/
+@media screen and (max-width:576px) {
+    .nav ,
+    .skills-container , 
+    .resume-contain,
+    .about-info-container,
+    .contact{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner{
+        margin: 0 20px;
+    }
+    .about,.contact{
+        padding: 10px;
+    }
+    .contact input[type="text"],input[type="email"],textarea{
+        padding: 0 0 0 5px;
+    }
+    #short-btn{
+        margin-left: 45%;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .about,.contact{
+        padding: 20px;
+        gap: 10px;
+    }
+    .contact{
+        flex-direction: column;
+    }
+}
+
+
+.hide{
+    display: none;
 }
